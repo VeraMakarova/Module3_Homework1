@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a8df11e-ac16-4030-b472-b70cee7ce58e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/inno/module3/homework1/Tests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2fgclFKGgQgtLZuog9iEJ6JPhn5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.Tests.auth.executor": "Run",
+    "JUnit.Tests.changeButtonName.executor": "Run",
+    "JUnit.Tests.fillForm.executor": "Run",
+    "JUnit.Tests.waitPicture.executor": "Run",
+    "JUnit.Tests.waitPicture2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.Tests.waitPicture2">
+    <configuration name="Tests.auth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module3_Homework1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.Tests" />
+      <option name="METHOD_NAME" value="auth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.changeButtonName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module3_Homework1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.Tests" />
+      <option name="METHOD_NAME" value="changeButtonName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.fillForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module3_Homework1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.Tests" />
+      <option name="METHOD_NAME" value="fillForm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.waitPicture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module3_Homework1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.Tests" />
+      <option name="METHOD_NAME" value="waitPicture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.waitPicture2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module3_Homework1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.Tests" />
+      <option name="METHOD_NAME" value="waitPicture2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Tests.waitPicture2" />
+        <item itemvalue="JUnit.Tests.waitPicture" />
+        <item itemvalue="JUnit.Tests.fillForm" />
+        <item itemvalue="JUnit.Tests.changeButtonName" />
+        <item itemvalue="JUnit.Tests.auth" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a8df11e-ac16-4030-b472-b70cee7ce58e" name="Changes" comment="" />
+      <created>1714226313144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714226313144</updated>
+    </task>
+    <servers />
+  </component>
+</project>
