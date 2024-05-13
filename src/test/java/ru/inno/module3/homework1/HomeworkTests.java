@@ -1,7 +1,9 @@
 package ru.inno.module3.homework1;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +14,10 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Owner("Vera Makarova")
+@DisplayName("Домашняя работа 1. Тесты Селениум")
+@Epic("Формы и картинки")
+@Feature("Авторизация")
 public class HomeworkTests {
 
     private WebDriver driver;
@@ -29,6 +35,10 @@ public class HomeworkTests {
     }
 
     @Test
+    @DisplayName("Успешная авторизация")
+    @Description("Проверяем успешную авторизацию с паролем pwd")
+    @Severity(SeverityLevel.BLOCKER)
+    @TmsLink("INNO-3")
     public void auth() {
         driver.get("http://uitestingplayground.com/sampleapp");
         driver.findElement(By.cssSelector("[name=UserName]")).sendKeys("inno");
@@ -40,6 +50,10 @@ public class HomeworkTests {
     }
 
     @Test
+    @DisplayName("Изменение текста на кнопке")
+    @Description("Проверяем появление на кнопке введенного текста")
+    @Severity(SeverityLevel.NORMAL)
+    @TmsLink("INNO-4")
     public void changeButtonName() {
         driver.get("http://uitestingplayground.com/textinput");
         driver.findElement(By.cssSelector("#newButtonName")).sendKeys("Привет");
@@ -51,6 +65,10 @@ public class HomeworkTests {
     }
 
     @Test
+    @DisplayName("Заполнение формы")
+    @Description("Проверяем появление на кнопке введенного текста")
+    @Severity(SeverityLevel.CRITICAL)
+    @TmsLink("INNO-5")
     public void fillForm() {
         driver.get("https://bonigarcia.dev/selenium-webdriver-java/data-types.html");
         driver.findElement(By.cssSelector("[name = first-name]")).sendKeys("Vera");
@@ -94,6 +112,10 @@ public class HomeworkTests {
 
 
     @Test
+    @DisplayName("Появление картинки")
+    @Description("Проверяем появление третьей картинки")
+    @Severity(SeverityLevel.NORMAL)
+    @TmsLink("INNO-6")
     public void waitPicture1() throws InterruptedException {
         driver.get("https://bonigarcia.dev/selenium-webdriver-java/loading-images.html");
         Thread.sleep(7000L);
@@ -103,6 +125,10 @@ public class HomeworkTests {
     }
 
     @Test
+    @DisplayName("Появление картинки - Тест 2")
+    @Description("Проверяем появление третьей картинки с использованием неявного ожидания")
+    @Severity(SeverityLevel.NORMAL)
+    @TmsLink("INNO-6")
     public void waitPicture2() throws InterruptedException {
         driver.get("https://bonigarcia.dev/selenium-webdriver-java/loading-images.html");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));

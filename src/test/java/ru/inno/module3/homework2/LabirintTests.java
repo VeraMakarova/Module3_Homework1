@@ -1,7 +1,9 @@
 package ru.inno.module3.homework2;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -13,6 +15,10 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@Owner("Vera Makarova")
+@DisplayName("Домашняя работа 2. Селениум, тесты Лабиринта")
+@Epic("Каталог")
+@Feature("Поиск по сайту")
 public class LabirintTests {
     private WebDriver driver;
 
@@ -30,6 +36,11 @@ public class LabirintTests {
     }
 
     @Test
+    @DisplayName("Поиск и добавление книг в корзину 2")
+    @Description("Проверяем успешное добавление книг в корзину")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Как пользователь я могу искать товары на сайте")
+    @TmsLink("INNO-2")
     public void buyBooks() {
         driver.manage().addCookie(new Cookie("cookie_policy", "1"));
         driver.navigate().refresh();

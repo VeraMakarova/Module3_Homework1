@@ -1,5 +1,6 @@
 package ru.inno.module3.pageObject.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 
@@ -12,6 +13,7 @@ public class LabirintFirstPage {
         this.driver = driver;
     }
 
+    @Step("Открыть главную страницу Лабиринта")
     public void openPage() {
         driver.get("https://www.labirint.ru/");
         driver.manage().addCookie(new Cookie("cookie_policy", "1"));
