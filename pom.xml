@@ -95,6 +95,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-selenide</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <!-- Add allure-bom to dependency management to ensure correct versions of all the dependencies are used -->

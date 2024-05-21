@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a8df11e-ac16-4030-b472-b70cee7ce58e" name="Changes" comment="PageObject Labirint&#10;&#10;pom file fixed">
-      <change afterPath="$PROJECT_DIR$/report.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+    <list default="true" id="7a8df11e-ac16-4030-b472-b70cee7ce58e" name="Changes" comment="Allure added&#10;&#10;Allure reporting and annotations added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/inno/module3/homework1/SelenideHomework1Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/inno/module3/selenide/SelenideLabirintTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/inno/module3/pageObject/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/inno/module3/pageObject/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/inno/module3/pageObject/pages/HeaderElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/inno/module3/pageObject/pages/HeaderElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/inno/module3/pageObject/pages/LabirintFirstPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/inno/module3/pageObject/pages/LabirintFirstPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/inno/module3/pageObject/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/inno/module3/pageObject/pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/inno/module3/homework1/HomeworkTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/inno/module3/homework1/HomeworkTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/inno/module3/homework2/LabirintTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/inno/module3/homework2/LabirintTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/inno/module3/pageObject/PageObjectLabirintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/inno/module3/pageObject/PageObjectLabirintTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +55,16 @@
     "JUnit.PageObjectLabirintTest.buyBooks.executor": "Run",
     "JUnit.PageObjectLabirintTest.buyBooksWithSteps.executor": "Run",
     "JUnit.PageObjectLabirintTest.executor": "Run",
+    "JUnit.SelenideHomework1Tests.changeButtonName.executor": "Run",
+    "JUnit.SelenideHomework1Tests.fillForm.executor": "Run",
+    "JUnit.SelenideHomework1Tests.waitPicture2.executor": "Run",
+    "JUnit.SelenideLabirintTest.anotherBrowser.executor": "Run",
+    "JUnit.SelenideLabirintTest.checkCookieMessage.executor": "Run",
+    "JUnit.SelenideLabirintTest.configuration.executor": "Run",
+    "JUnit.SelenideLabirintTest.executor": "Run",
+    "JUnit.SelenideLabirintTest.manageBooks.executor": "Run",
+    "JUnit.SelenideLabirintTest.manageBooks2AndScreen.executor": "Run",
+    "JUnit.SelenideLabirintTest.textBooks.executor": "Run",
     "JUnit.Tests.auth.executor": "Run",
     "JUnit.Tests.changeButtonName.executor": "Run",
     "JUnit.Tests.fillForm.executor": "Run",
@@ -79,85 +82,92 @@
       <recent name="$PROJECT_DIR$/allure-results" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PageObjectLabirintTest.buyBooks">
-    <configuration name="LabirintTests.buyBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SelenideLabirintTest">
+    <configuration name="SelenideHomework1Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Module3_Homework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.inno.module3.homework2.*" />
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.inno.module3.homework2" />
-      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework2.LabirintTests" />
-      <option name="METHOD_NAME" value="buyBooks" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PageObjectLabirintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module3_Homework1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.inno.module3.pageObject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.inno.module3.pageObject" />
-      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.pageObject.PageObjectLabirintTest" />
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.SelenideHomework1Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageObjectLabirintTest.buyBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelenideHomework1Tests.changeButtonName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Module3_Homework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.inno.module3.pageObject.*" />
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.inno.module3.pageObject" />
-      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.pageObject.PageObjectLabirintTest" />
-      <option name="METHOD_NAME" value="buyBooks" />
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.SelenideHomework1Tests" />
+      <option name="METHOD_NAME" value="changeButtonName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageObjectLabirintTest.buyBooksWithSteps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelenideHomework1Tests.fillForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Module3_Homework1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.inno.module3.pageObject.*" />
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.inno.module3.pageObject" />
-      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.pageObject.PageObjectLabirintTest" />
-      <option name="METHOD_NAME" value="buyBooksWithSteps" />
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.SelenideHomework1Tests" />
+      <option name="METHOD_NAME" value="fillForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="module3 in Module3_Homework1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelenideHomework1Tests.waitPicture2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Module3_Homework1" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/ru/inno/module3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.inno.module3.homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.inno.module3.homework1" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.homework1.SelenideHomework1Tests" />
+      <option name="METHOD_NAME" value="waitPicture2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideLabirintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module3_Homework1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.inno.module3.selenide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.inno.module3.selenide" />
+      <option name="MAIN_CLASS_NAME" value="ru.inno.module3.selenide.SelenideLabirintTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PageObjectLabirintTest.buyBooks" />
-        <item itemvalue="JUnit.PageObjectLabirintTest.buyBooksWithSteps" />
-        <item itemvalue="JUnit.LabirintTests.buyBooks" />
-        <item itemvalue="JUnit.module3 in Module3_Homework1" />
-        <item itemvalue="JUnit.PageObjectLabirintTest" />
+        <item itemvalue="JUnit.SelenideLabirintTest" />
+        <item itemvalue="JUnit.SelenideHomework1Tests" />
+        <item itemvalue="JUnit.SelenideHomework1Tests.waitPicture2" />
+        <item itemvalue="JUnit.SelenideHomework1Tests.fillForm" />
+        <item itemvalue="JUnit.SelenideHomework1Tests.changeButtonName" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715327334577</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Allure added&#10;&#10;Allure reporting and annotations added">
+      <option name="closed" value="true" />
+      <created>1715608572453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715608572453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +239,7 @@
     <MESSAGE value="Homework2&#10;&#10;Added homework2 - LabirintTests" />
     <MESSAGE value="PageObject added&#10;&#10;Added pageObject to the homework2 LabirintTests" />
     <MESSAGE value="PageObject Labirint&#10;&#10;pom file fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="PageObject Labirint&#10;&#10;pom file fixed" />
+    <MESSAGE value="Allure added&#10;&#10;Allure reporting and annotations added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allure added&#10;&#10;Allure reporting and annotations added" />
   </component>
 </project>
